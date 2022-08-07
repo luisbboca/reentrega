@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+    <script src="funciones.js"></script>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <header>
+        <h1>Colegio el Salvador </h1>
+    </header>
+    <div id="container">
+        <form name="calculo">
+            <fieldset>
+                <legend>Ingresar las notas aqui</legend>
+                <label>Materias:</label><br>
+                <label >Ingles:</label><br>
+                <input type="number" id="ingles"><br>
+                <label >Lengua:</label><br>
+                <input type="number" id="leng"><br>
+                <label >Matematicas:</label><br>
+                <input type="number" id="mate"><br>
+                <label >Programacion:</label><br>
+                <input type="number" id="progra"><br>
+                <input type="button" value="promedio" onclick="promedio()">
+            </fieldset>
+
+        </form>
+        <div id="promedio"></div>
+        <div id="evaluacion"></div>
+
+    </div>
+
+    
+</body>
+</html>
